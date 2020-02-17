@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SignUp from './components/SignUp'
+import SignIn from './components/SignIn'
+import ChooseGame from './components/ChooseGame'
 
 function App() {
   return (
     <div>
-     GAME
+      <ChooseGame />
     </div>
   );
 }
